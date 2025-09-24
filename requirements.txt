@@ -1,0 +1,12 @@
+flask
+fastapi
+uvicorn[standard]
+spacy
+sentence-transformers
+scikit-learn
+nltk
+PyPDF2
+python-docx
+jinja2
+requests
+gunicorn
