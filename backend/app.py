@@ -2,8 +2,9 @@
 import os
 import tempfile
 from flask import Flask, request, jsonify, render_template, redirect, url_for
-from matcher import get_similarity_score
-from utils import extract_text, clean_text, compare_skills
+from backend.matcher import get_similarity_score
+from backend.utils import extract_text, clean_text, compare_skills
+
 
 app = Flask(__name__, template_folder="templates", static_folder="../static")
 
