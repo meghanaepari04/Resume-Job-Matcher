@@ -6,5 +6,11 @@ python-docx==1.2.0
 scikit-learn==1.7.1
 pandas==2.2.3
 numpy==2.2.6
+
+# NLP dependencies (locked for compatibility)
 sentence-transformers==2.2.2
+transformers==4.30.2
+huggingface-hub==0.8.1
+torch==2.2.2
+
 
