@@ -5,6 +5,7 @@ pandas
 numpy
 nltk
 spacy
+sentence-transformers
 
 
 
