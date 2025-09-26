@@ -1,16 +1,10 @@
-Flask==3.1.2
-gunicorn==23.0.0
-pdfminer.six==20250506
-PyPDF2==3.0.1
-python-docx==1.2.0
-scikit-learn==1.7.1
-pandas==2.2.3
-numpy==2.2.6
+Flask
+gunicorn
+scikit-learn
+pandas
+numpy
+nltk
+spacy
 
-# NLP dependencies
-sentence-transformers==2.2.2
-transformers==4.30.2
-huggingface-hub==0.8.1
-torch==2.5.1
 
 
