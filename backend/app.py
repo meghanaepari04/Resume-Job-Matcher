@@ -4,7 +4,7 @@ import tempfile
 from flask import Flask, request, jsonify, render_template, redirect, url_for
 from backend.matcher import get_similarity_score
 from backend.utils import extract_text, clean_text, compare_skills
-from sentence_transformers import SentenceTransformer
+from sentence-transformers import SentenceTransformer
 
 
 
